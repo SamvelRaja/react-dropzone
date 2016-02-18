@@ -1,6 +1,6 @@
 {
-  "name": "react-dropzone",
-  "version": "3.2.3",
+  "name": "@postmanlabs/react-dropzone",
+  "version": "1.0.0",
   "description": "Simple HTML5 drag-drop zone with React.js",
   "main": "lib/index.js",
   "scripts": {
@@ -17,18 +17,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:paramaggarwal/react-dropzone.git"
+    "url": "git@github.com:SamvelRaja/react-dropzone.git"
   },
   "bugs": {
-    "url": "https://github.com/paramaggarwal/react-dropzone/issues"
+    "url": "https://github.com/SamvelRaja/react-dropzone/issues"
   },
-  "homepage": "https://github.com/paramaggarwal/react-dropzone",
+  "homepage": "https://github.com/SamvelRaja/react-dropzone",
   "author": "Param Aggarwal",
   "contributors": [
     {
       "name": "Andrey Okonetchnikov",
       "email": "andrej.okonetschnikow@gmail.com",
       "url": "http://okonet.ru"
+    },
+    {
+      "name": "SamvelRaja",
+      "email": "samvel@getpostman.com",
     }
   ],
   "license": "MIT",
@@ -46,5 +50,8 @@
     "react": "^0.14.3",
     "react-addons-test-utils": "^0.14.3",
     "sinon": "^1.17.2"
+  },
+  "publishConfig":{
+    "registry":"https://npm.postmanlabs.com"
   }
 }
